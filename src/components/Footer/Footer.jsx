@@ -1,10 +1,12 @@
 import React from 'react';
 import { Landmark } from 'lucide-react';
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-primary text-white pt-16 pb-8">
+    <footer className="footer">
       <div className="container">
         <div className="footer-grid grid md:grid-cols-4 gap-8 mb-12">
           
@@ -55,8 +57,12 @@ const Footer = () => {
           
         </div>
 
-        <div className="footer-bottom   mt-8 text-center">
+        <div className="footer-bottom">
           <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Techbrain Networks. All rights reserved.</p>
+          <div className="footer-bottom-links">
+            <RouterLink to="/privacy">Privacy Policy</RouterLink>
+            <RouterLink to="/terms">Terms & Conditions</RouterLink>
+          </div>
         </div>
       </div>
     </footer>

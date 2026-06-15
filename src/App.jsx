@@ -23,6 +23,8 @@ import Product17 from './components/Products/ProductPages/Product17';
 import Product18 from './components/Products/ProductPages/Product18';
 import Product19 from './components/Products/ProductPages/Product19';
 import Product20 from './components/Products/ProductPages/Product20';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import Terms from './components/Terms/Terms';
 import './index.css';
 
 const App = () => {
@@ -52,6 +54,8 @@ const App = () => {
           <Route path="/product/18" element={<Product18 />} />
           <Route path="/product/19" element={<Product19 />} />
           <Route path="/product/20" element={<Product20 />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
         <Footer />
       </div>
@@ -62,4 +66,5 @@ const App = () => {
 
 
 export default App;
+
 
