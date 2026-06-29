@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <div className="logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
           <Landmark size={28} className="logo-icon" />
-          <span className="logo-text">Techbrain Networks<br /><p style={{ fontSize: '14px', letterSpacing: '0.9rem', marginLeft: '0.7rem', color: 'var(--accent)' }} className="mt-1">Automotive</p></span>
+          <span className="logo-text">Techbrain Networks<br /><p style={{ fontSize: '13px', letterSpacing: '0.9rem', marginLeft: '0.7rem', color: 'var(--accent)' }} className="mt-1">Automotive</p></span>
         </div>
 
         {/* Desktop Menu */}

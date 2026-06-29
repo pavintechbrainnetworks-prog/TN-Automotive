@@ -42,7 +42,7 @@ const productsData = [
   {
     title: "Personal Finance Management Apps",
     description: "Intuitive mobile applications allowing users to track expenses, manage budgets, and optimize their personal wealth effortlessly.",
-    image:prd4
+    image: prd4
   },
   {
     title: "RegTech Compliance Solutions",
@@ -82,7 +82,7 @@ const productsData = [
   {
     title: "Financial Planning and Budgeting Apps",
     description: "Enterprise and personal forecasting platforms to visualize financial trajectories and manage cash flow efficiently.",
-    image:prd12
+    image: prd12
   },
   {
     title: "Peer-to-Peer (P2P) Lending Platforms",

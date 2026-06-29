@@ -14,15 +14,15 @@ const Contact = () => {
         <div className="contact-wrapper">
           <div className="contact-info glass-card p-8">
             <h3 className="mb-6 text-xl">Our Offices</h3>
-            
+
             <div className="address-block mb-6">
               <h4 className="flex items-center gap-2 mb-2 text-primary font-bold">
                 <MapPin size={20} /> India
               </h4>
               <p className="text-secondary text-sm ml-7">
-                Thanjavur<br/>
-                6/12 Papa vaikal Street, Ayyampettai Post<br/>
-                Papanasam Taluk, Thanjavur 614201<br/>
+                Thanjavur<br />
+                6/12 Papa vaikal Street, Ayyampettai Post<br />
+                Papanasam Taluk, Thanjavur 614201<br />
                 Tamilnadu, India.
               </p>
             </div>
@@ -32,9 +32,9 @@ const Contact = () => {
                 <MapPin size={20} /> United Kingdom
               </h4>
               <p className="text-secondary text-sm ml-7">
-                London<br/>
-                71-75 Shelton Street, Covent Garden<br/>
-                London, WC2H 9JQ<br/>
+                London<br />
+                71-75 Shelton Street, Covent Garden<br />
+                London, WC2H 9JQ<br />
                 United Kingdom.
               </p>
             </div>

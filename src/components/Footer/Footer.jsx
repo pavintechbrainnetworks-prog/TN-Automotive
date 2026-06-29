@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-grid grid md:grid-cols-4 gap-8 mb-12">
-          
+
           <div className="footer-about">
             <div className="logo mb-4 flex items-center gap-2">
               <Landmark size={28} className="text-accent" />
@@ -54,7 +54,7 @@ const Footer = () => {
               <button className="bg-accent text-primary font-bold px-4 rounded-r text-sm">Subscribe</button>
             </div>
           </div>
-          
+
         </div>
 
         <div className="footer-bottom">

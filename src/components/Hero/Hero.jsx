@@ -9,10 +9,10 @@ const Hero = () => (
     <div className="hero-overlay"></div>
     <div className="container hero-content">
       <h1 className="hero-heading animate-on-scroll">
-        Next Generation Financial <br /> Technology Solutions
+        Next Generation Automotive <br /> Technology Solutions
       </h1>
       <p className="hero-subheading animate-on-scroll" style={{ animationDelay: '0.2s' }}>
-        Secure, Scalable, Intelligent Digital Finance Platforms
+        Secure, Scalable, Intelligent Connected Vehicle & Mobility Platforms
       </p>
       <div className="hero-cta animate-on-scroll" style={{ animationDelay: '0.4s' }}>
         <Link to="products" smooth={true} offset={-70} duration={500} className="btn btn-primary hero-btn">
